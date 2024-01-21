@@ -58,6 +58,25 @@ main h3 {
   margin-bottom: 20px;
 }
 
+/* TABLE STYLING */
+
+table {
+  width: 550px;
+  margin: 20px auto;
+  text-align: center;
+  color: white;
+}
+
+thead {
+  background-color: #4F6F52;
+  font-size: 18px;
+}
+
+td {
+  background-color: #86a789;
+
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -118,6 +137,9 @@ footer img {
   border-radius: 8px;
 }
 
+.code-caption {
+  text-align: center;
+}
 
 .footer-text {
   float: left;
