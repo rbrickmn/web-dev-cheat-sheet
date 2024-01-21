@@ -36,6 +36,7 @@ header ul {
 main {
   position: relative;
   top: 150px;
+  bottom: 150px;
   margin: 20px 110px;
 }
 
@@ -67,11 +68,12 @@ a:hover {
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
+  position: relative;
+  bottom: -50px;
   display: inline-block;
   width: 100%;
   padding: 20px 210px;
+  margin-top: 150px;
 }
 
 footer img {
@@ -111,8 +113,9 @@ footer img {
   background-color: #262A32;
   color: white;
   font-family: "IBM Plex Mono";
-  padding: 20px 40px;
+  padding: 20px;
   margin: 20px;
+  border-radius: 8px;
 }
 
 
