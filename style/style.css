@@ -10,6 +10,7 @@
 body {
   font-family: Poppins, sans-serif;
   background-color: #d2e3c8;
+  min-height: 100vh;
 }
 
 header,
@@ -66,7 +67,7 @@ a:hover {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   display: inline-block;
   width: 100%;
@@ -87,6 +88,33 @@ footer img {
 .section-box {
   margin: 20px;
 }
+
+/* .section-box h2 {
+  display: block;
+} */
+
+.section-box h3 {
+  text-align: center;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.section-description {
+  /* border: 1px solid green; */
+  color: #4f6f52;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.code-block {
+  background-color: #262A32;
+  color: white;
+  font-family: "IBM Plex Mono";
+  padding: 20px 40px;
+  margin: 20px;
+}
+
 
 .footer-text {
   float: left;
