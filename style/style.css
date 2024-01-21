@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
 
 * {
   margin: 0;
@@ -8,12 +9,12 @@
 
 body {
   font-family: Poppins, sans-serif;
-  background-color: #D2E3C8;
+  background-color: #d2e3c8;
 }
 
 header,
 footer {
-  background-color: #4F6F52;
+  background-color: #4f6f52;
   color: white;
 }
 
@@ -37,12 +38,22 @@ main {
   margin: 20px 110px;
 }
 
-main h2 {
-  display: inline-block;
-  background-color: #4F6F52;
+main h2,
+main h3 {
   color: white;
   padding: 5px 20px 5px 20px;
   border-radius: 8px;
+}
+
+main h2 {
+  display: inline-block;
+  background-color: #4f6f52;
+}
+
+main h3 {
+  background-color: #86a789;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 a {
@@ -60,7 +71,7 @@ footer {
   display: inline-block;
   width: 100%;
   padding: 20px 210px;
-} 
+}
 
 footer img {
   height: 30px;
@@ -71,6 +82,10 @@ footer img {
 #homepage-link {
   text-decoration: none;
   color: white;
+}
+
+.section-box {
+  margin: 20px;
 }
 
 .footer-text {
