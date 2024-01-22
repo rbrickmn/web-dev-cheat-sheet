@@ -24,6 +24,7 @@
       </nav>
     </header>
 
+    <!-- Not a visible heading. Used specifically to make the browser jump to a position that makes the HTML section fully visible!-->
     <h1 id="html-section"></h1>
 
     <main>
@@ -176,7 +177,7 @@
 
         <p class="section-description">
           Below are some reference materials for CSS! This <br />
-          table has a plethora of useful CSS properties to get a quick refresher!
+          section has a plethora of useful CSS properties and concepts to get a quick refresher!
         </p>
         
         <div class="definition-section">
@@ -184,7 +185,27 @@
 
           <h4>The Box Model</h4>
           <p class="definition">
-            The box model comprises a set of properties used to create space around and between HTML elements.
+            Defines how the different parts of a box — margin, border, padding, and content — work together to create a box that you can see on a page. <span class="credit"><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model" target="_blank">MDN</a></span>
+          </p>
+
+          <h4>CSS Margin Collapse</h4>
+          <p class="definition">
+            The top and bottom margins of blocks are sometimes combined (collapsed) into a single margin whose size is the largest of the individual margins. <span class="credit"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model/Mastering_margin_collapsing" target="_blank">MDN</a></span>
+          </p>
+
+          <h4>Centering Horizontally</h4>
+          <p class="definition">
+            To center an element horizontally, use <span class="code">margin: auto;</span>. This method, while older, centers the element within its parent container <strong>IF</strong> the width is less than the width of the parent container.
+          </p>
+
+          <h4>Floating Elements</h4>
+          <p class="definition">
+            The <span class="code">float</span> property allows you to position an element <strong>as far LEFT or RIGHT</strong> as possible. This is best used for things like wrapping text around and image.
+          </p>
+
+          <h4>Clearing Floated Elements</h4>
+          <p class="definition">
+            When floating an element, it can cause other elements to "bump" into one another, a typically unwanted behavior. The <span class="code">clear</span> property specifies how elements should behave when they bump into each other!
           </p>
         </div>
 
