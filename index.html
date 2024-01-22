@@ -175,48 +175,57 @@
         <h2>CSS Cheatsheet</h2>
 
         <p class="section-description">
-          Below are some reference materials for CSS! Items <br />
-          include positioning, sizing, fonts, and more!
+          Below are some reference materials for CSS! This <br />
+          table has a plethora of useful CSS properties to get a quick refresher!
         </p>
+        
+        <div class="definition-section">
+          <h3>CSS definitions</h3>
+
+          <h4>The Box Model</h4>
+          <p class="definition">
+            The box model comprises a set of properties used to create space around and between HTML elements.
+          </p>
+        </div>
 
         <table>
           <thead>
             <tr>
               <th>Property</th>
-              <th>Name</th>
               <th>Description</th>
+              <th>Values</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><span class="code">&lt;table&gt;</span></td>
-              <td>Table</td>
-              <td>The wrapper element for all HTML tables.</td>
+              <td><span class="code">box-sizing</span></td>
+              <td>Controls the type of box model the browser will use.</td>
+              <td><span class="code">content-box, border-box</span></td>
             </tr>
             <tr>
-              <td><span class="code">&lt;thead&gt;</span></td>
-              <td>Table Head</td>
-              <td>The set of rows defining the column headers in a table.</td>
+              <td><span class="code">margin</span></td>
+              <td>Controls the space on the <strong>outside</strong> of the box.</td>
+              <td><span class="code">up, down, left, right <br> margin: 0 auto; (centers the element horizontally in its container)</span></td>
             </tr>
             <tr>
-              <td><span class="code">&lt;tbody&gt;</span></td>
-              <td>Table Body</td>
-              <td>The set of rows containing actual table data.</td>
+              <td><span class="code">overflow</span></td>
+              <td>Instructs the browser on about to handle overflowing content in an element.</td>
+              <td><span class="code">hidden, scroll, visible (DEFAULT)</span></td>
             </tr>
             <tr>
-              <td><span class="code">&lt;tr&gt;</span></td>
-              <td>Table Row</td>
-              <td>The table row container.</td>
+              <td><span class="code">padding</span></td>
+              <td>Controls the space between the content and its border.</td>
+              <td><span class="code">up, down, left, right</span></td>
             </tr>
             <tr>
-              <td><span class="code">&lt;td&gt;</span></td>
-              <td>Table Data</td>
-              <td>The table row container.</td>
+              <td><span class="code">position</span></td>
+              <td>Controls how the browser positions elements in the web page.</td>
+              <td><span class="code">static (DEFAULT), relative, absolute, fixed, sticky</span></td>
             </tr>
             <tr>
-              <td><span class="code">&lt;tfoot&gt;</span></td>
-              <td>Table Foot</td>
-              <td>The set of rows defining the footer in a table.</td>
+              <td><span class="code">display</span></td>
+              <td>Controls whether or not an HTML element takes up the entire line, shares the space, or a mix of the two. Some elements have a default of <span class="code">inline</span>, while others have a default of <span class="code">block</span>.</td>
+              <td><span class="code">inline, inline-block, block</span></td>
             </tr>
           </tbody>
         </table>

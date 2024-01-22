@@ -41,7 +41,8 @@ main {
 }
 
 main h2,
-main h3 {
+main h3,
+main h4 {
   color: white;
   padding: 5px 20px 5px 20px;
   border-radius: 8px;
@@ -52,16 +53,22 @@ main h2 {
   background-color: #4f6f52;
 }
 
-main h3 {
+main h3,
+main h4 {
   background-color: #86a789;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
+main h4 {
+  background-color: #4f6f52;
+  display: inline-block;
+}
+
 table {
+  float: right;
+  max-width: 50%;
   border: 2px solid #86a789;
-  width: 850px;
-  margin: 0 auto;
   text-align: center;
 }
 
@@ -118,12 +125,24 @@ footer img {
   width: 300px;
 }
 
-.section-description {
+.section-description,
+.definition {
   /* border: 1px solid green; */
   color: #4f6f52;
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 20px;
+}
+
+
+.definition-section {
+  float: left;
+  /* border: 1px solid red; */
+  max-width: 50%;
+}
+
+.definition {
+  font-size: 18px;
 }
 
 .code-block {
